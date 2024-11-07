@@ -1,0 +1,24 @@
+title: UD F24 CISC181 Course Docs
+description: Important documents for the Fall 2024 CISC181 course at the University of Delaware.
+theme: just-the-docs
+
+url: https://ud-f24-cisc181.github.io/course-docs/
+
+markdown: kramdown
+
+
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
