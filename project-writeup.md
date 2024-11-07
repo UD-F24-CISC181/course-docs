@@ -62,7 +62,6 @@ The `Loan` class has the core logic of your application. You will need to finish
 - [ ] The `paymentsSaved` method, which should return the total number of payments saved by making extra payments.
 - [ ] The `totalPaymentCount` method, which should return the total number of payments for the loan.
 - [ ] The `totalExpectedPaymentCount` method, which should return the total number of payments for the loan.
-- [ ] The `getSpecificPayment` method, which should return the payment at a specific index.
 - [ ] The `createPayments` method, which has comments explaining the remaining functionality required.
 
 You should not implement the `oneTimePayment` method yet! That will be saved for the next phase.
