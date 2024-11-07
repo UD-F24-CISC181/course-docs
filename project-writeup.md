@@ -26,7 +26,7 @@ More details about each phase are provided below.
 
 ## Phase 0: Starting Code
 
-To begin the project, follow this link to clone the assignment: TBA
+To begin the project, follow this link to clone the assignment: <https://classroom.github.com/a/o4X-3ayf>
 
 The starting point to browse the repository is the `src` folder, which has two main directories: the `code/` (containing the math and logic for the loan calculator) and the `app/` (which will eventually contain the web interface for the loan calculator). We will start in the `code/` directory. Once you've installed the dependencies, we recommend running the tests as you work:
 
