@@ -75,11 +75,15 @@ When you have finished all the parts of Part 1, you can submit your code on Grad
 
 ## Phase 2: Loan Calculator UI
 The Loan class is complete, except for one method:
-- [ ] oneTimePayment – This method will pass in PaymentNumber and lumpSumAmount and should
+
+**oneTimePayment** – This method will pass in PaymentNumber and lumpSumAmount and should
 - [ ] Make a new array of Payments, copying over all the payments < PaymentNumber
-- [ ] Edit the payment in place, changing Principle Amount, Remaining Balance and Extra Payment, adding it to the array of **Payments**
+- [ ] Edit the payment in place, changing Principle Amount, Remaining Balance and Extra Payment, adding it to the array of
+
+**Payments**
 - [ ] Calculating all future Payments (adjusting for the new remaining balance)
-The general structure of the application is set- MainComponent has LoanEntryComponent, and each payment will have a PaymentDisplayComponent.  
+The general structure of the application is set- MainComponent has LoanEntryComponent, and each payment will have a PaymentDisplayComponent.
+
 **LoanEntryComponent**
 - [ ] LoanEntryComponent.css – Should be complete, you may want to tweak the css for styling
 - [ ] LoanEntryComponent.html – Look for ‘Fix Me’ and add spans/input fields for attributes
