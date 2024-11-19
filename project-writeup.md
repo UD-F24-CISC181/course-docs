@@ -75,28 +75,30 @@ When you have finished all the parts of Part 1, you can submit your code on Grad
 
 ## Phase 2: Loan Calculator UI
 The Loan class is complete, except for one method:
-•	oneTimePayment – This method will pass in PaymentNumber and lumpSumAmount and should
-o	Make a new array of Payments, copying over all the payments < PaymentNumber
-o	Edit the payment in place, changing Principle Amount, Remaining Balance and Extra Payment, adding it to the array of Payments
-o	Calculating all future Payments (adjusting for the new remaining balance)
+- [ ] oneTimePayment – This method will pass in PaymentNumber and lumpSumAmount and should
+- [ ] Make a new array of Payments, copying over all the payments < PaymentNumber
+- [ ] Edit the payment in place, changing Principle Amount, Remaining Balance and Extra Payment, adding it to the array of **Payments**
+- [ ] Calculating all future Payments (adjusting for the new remaining balance)
 The general structure of the application is set- MainComponent has LoanEntryComponent, and each payment will have a PaymentDisplayComponent.  
-LoanEntryComponent
-•	LoanEntryComponent.css – Should be complete, you may want to tweak the css for styling
-•	LoanEntryComponent.html – Look for ‘Fix Me’ and add spans/input fields for attributes
-•	LoanEntryComponent.ts – Look for ‘Fix Me’
-o	I’ve left in a few of the correct bindings (example, Total-Payments binding is correct).  Complete the rest of the bindings correctly.  
-o	Complete cleanLoanTable – This should remove all the loanTable components
-o	Complete calculate() – This method is fired when the ‘Calculate’ button is pressed in the application
-o	Complete PaintLoanSummary() – This method completes the top right portion of the screen
-o	Complete PaintPayments() – This method will draw all of the payments on the screen.  You’ll have to add a notifier for ExtraPayment changed
+**LoanEntryComponent**
+- [ ] LoanEntryComponent.css – Should be complete, you may want to tweak the css for styling
+- [ ] LoanEntryComponent.html – Look for ‘Fix Me’ and add spans/input fields for attributes
+- [ ] LoanEntryComponent.ts – Look for ‘Fix Me’
+- [ ] I’ve left in a few of the correct bindings (example, Total-Payments binding is correct).  Complete the rest of the bindings correctly.  
+- [ ] Complete cleanLoanTable – This should remove all the loanTable components
+- [ ] Complete calculate() – This method is fired when the ‘Calculate’ button is pressed in the application
+- [ ] Complete PaintLoanSummary() – This method completes the top right portion of the screen
+- [ ] Complete PaintPayments() – This method will draw all of the payments on the screen.  You’ll have to add a notifier for ExtraPayment changed
 
-PaymentDisplayComponent
-•	PaymentDisplayComponent.css – Should be complete, you may want to tweak the css for styling
-•	PaymentDisplayComponent.html – Look for ‘Fix Me’ and add spans/input fields for attributes
-•	PaymentDisplayComponent.ts – Look for ‘Fix Me’
-o	I’ve left in a few of the correct bindings (example, idEndingBalance binding is correct).  Complete the rest of the bindings correctly.  
-o	Add the notifier and change event for ExtraPayments.  Changing extra payments should fire an event in LoanEntryComponent
-The unit tests have been adjusted to test oneTimePayment.  The autograder will assign a portion of the grade for the automated test results.  The second portion of the grade will be assigned by the TAs/myself testing your published page.
+**PaymentDisplayComponent**
+- [ ] PaymentDisplayComponent.css – Should be complete, you may want to tweak the css for styling
+- [ ] PaymentDisplayComponent.html – Look for ‘Fix Me’ and add spans/input fields for attributes
+- [ ] PaymentDisplayComponent.ts – Look for ‘Fix Me’
+- [ ] I’ve left in a few of the correct bindings (example, idEndingBalance binding is correct).  Complete the rest of the bindings correctly.  
+- [ ] Add the notifier and change event for ExtraPayments.  Changing extra payments should fire an event in LoanEntryComponent
+The unit tests have been adjusted to test oneTimePayment.
+
+The autograder will assign a portion of the grade for the automated test results.  The second portion of the grade will be assigned by the TAs/myself testing your published page.
 
 ## Code Quality Grading
 
